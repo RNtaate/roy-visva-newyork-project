@@ -1,47 +1,91 @@
-*, *::before, *::after{
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+main {
+  max-width: 1287px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px 5px 20px;
-    margin-top: 0;
-    border-bottom : 1px solid lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px 5px 20px;
+  margin-top: 0;
+  border-bottom: 1px solid lightgray;
 }
 
-.left-div{
-    display: flex;
-    justify-content: space-around;   
+.left-div {
+  display: flex;
+  justify-content: space-around;
 }
 
-.left-div > span{
-    margin-right: 30px;
+.left-div > span {
+  margin-right: 30px;
 }
 
-.left-div > a{
-    font-size: 13px;
-    font-weight: 700;
-    color: black;
+.left-div > a {
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
 }
 
-.center-div{
-    display: flex;
-    justify-content: center;
+.center-div {
+  display: flex;
+  justify-content: center;
 }
-.center-div > img{
-    width: 35%;
+.center-div > img {
+  width: 35%;
 }
 
-.right-div > button{
-    color: white;
-    background-color: #567B95;
-    padding: 10px;
-    border: none;
-    border-radius: 3px;
-    font-size: 13px;
-    font-weight: 600;
+.right-div > button {
+  color: white;
+  background-color: #567b95;
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.title {
+  margin-top: 100px;
+}
+
+.title h1 {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  display: block;
+}
+
+figure img {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: 16px;
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #666;
+}
+
+figcaption span {
+  font-size: 14px;
+  opacity: 0.8;
 }
