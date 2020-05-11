@@ -311,13 +311,19 @@ aside > nav > a:hover {
 }
 
 footer {
-  font-size: 15px;
+  font-size: 13px;
+  width: 96%;
+  margin-top: 40px;
+  border-top: 2px solid lightgray;
 }
 
 .footer-logo-div {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
+  margin-top: 1px;
+  border-top: 1px solid lightgray;
+  padding-top: 5px;
 }
 
 .footer-logo-div > img {
@@ -354,22 +360,56 @@ footer {
   text-decoration: underline;
 }
 
+.menu-links-div > h5{
+  margin-bottom: 5px;
+  font-weight: 800;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  color: rgb(30, 30, 30);
+}
+
 .last-one {
   flex-basis: 20%;
   padding-left: 20px;
   border-left: 0.8px solid lightgray;
 }
 
-.last-one > a:nth-child(7) {
+.last-one > a:nth-child(9) {
   border-top: 1px solid lightgray;
   padding-top: 10px;
   margin-top: 3px;
+}
+
+.last-one > a:nth-child(6){
+  margin-top: 10px;
 }
 
 .last-one > .bold {
   font-weight: 1000;
 }
 
-.menu-links-div > h5 {
-  margin-bottom: 5px;
+.last-one > .smaller{
+  font-size: 10px;
+}
+
+.rights-div{
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+  border-top: 1px solid lightgray;
+}
+
+.rights-div > p{
+  margin-top: 0;
+}
+
+.rights-div > p > a{
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+.rights-div > p > a:hover {
+  text-decoration: underline;
 }
