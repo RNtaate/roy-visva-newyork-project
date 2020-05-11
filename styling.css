@@ -56,7 +56,7 @@ main {
   width: 35%;
 }
 
-.right-div > button {
+.upper-btn {
   color: white;
   background-color: #567b95;
   padding: 10px;
@@ -68,7 +68,7 @@ main {
 
 .title {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 .title h1 {
@@ -136,6 +136,13 @@ article pre {
   white-space: pre-wrap;
   overflow-wrap: break-word;
   line-height: 30px;
+  color: rgb(50, 50, 50);
+}
+
+article > pre > h3{
+  margin: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .video {
@@ -156,6 +163,52 @@ iframe {
   border: none;
 }
 
+.video-info{
+  font-size: 15px;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  color: #666;
+}
+.video-info > span{
+  font-size: 12px;
+}
+
 .article-image {
   width: 70%;
+}
+
+article > pre > a{
+  color: #4B6891;
+}
+
+article > p{
+  font-size: 12px;
+  color: rgb(102, 102, 102);
+  margin-bottom: 20px;
+}
+
+article > p > a{
+  color : rgb(102, 102, 102);
+}
+
+.article-bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items : center;
+}
+
+.comments-btn{
+  /* padding-left: 70px;
+  padding-right: 70px; */
+  width: 55%;
+  border-radius: 2px;
+}
+
+.social-bottom{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
 }
