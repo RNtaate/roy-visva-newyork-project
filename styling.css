@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -54,7 +54,7 @@ aside > nav > a {
   padding: 20px 0;
   line-height: 25px;
   font-weight: 600;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   border-top: 1px solid lightgray;
 }
 
@@ -70,6 +70,11 @@ aside > nav > a {
 
 .info-div > span {
   font-size: 0.7rem;
+}
+
+.right-expand > span {
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .left-div > a > span {
@@ -113,7 +118,7 @@ figure img {
   margin-right: auto;
   font-size: 6vh;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 figure {
@@ -150,7 +155,7 @@ figcaption {
 }
 
 .article pre {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   max-width: 100%;
   white-space: pre-wrap;
@@ -223,7 +228,7 @@ figcaption {
   font-size: 12px;
   display: inline;
   margin-right: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .img-holder > .img-2 {
@@ -294,6 +299,12 @@ iframe {
 
 .article-image {
   width: 70%;
+}
+
+.menu-links-div > a {
+  text-decoration: none;
+  color: #000;
+  padding: 5px 0;
 }
 
 .article > pre > a {
@@ -381,6 +392,16 @@ iframe {
   cursor: pointer;
 }
 
+.rights-div > p {
+  margin-top: 0;
+}
+
+.right-expand > p {
+  width: 50%;
+  margin-right: 100px;
+  font-size: 14px;
+}
+
 .article-link-div > p:hover {
   color: rgb(102, 102, 102);
 }
@@ -393,8 +414,11 @@ aside {
   border-top: 1px solid black;
 }
 
-.footer-logo-div > img {
-  width: 18%;
+.rights-div > p > a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+  font-size: 10px;
+  margin-right: 20px;
 }
 
 aside > nav > a:hover {
@@ -405,7 +429,8 @@ aside > nav > a:hover {
   display: flex;
   flex-direction: column;
   border-top: 1px solid black;
-}font-family: 'Times New Roman';
+  font-family: "Times New Roman", Times, serif;
+}
 
 .editors-articles-div {
   display: grid;
@@ -431,7 +456,7 @@ footer {
   margin-bottom: 20px;
 }
 
-.footer-logfont-family: 'Times New Roman';o-div {
+.footer-logo-div {
   display: flex;
   justify-content: space-between;
   padding-bottom: 10px;
@@ -450,12 +475,6 @@ footer {
   flex-direction: column;
 }
 
-.menu-links-div > a {
-  text-decoration: none;
-  color: #000;
-  padding: 5px 0;
-}
-
 .menu-links-div > a > i {
   margin-right: 10px;
 }
@@ -467,7 +486,7 @@ footer {
 .menu-links-div > h5 {
   margin-bottom: 5px;
   font-weight: 800;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   color: rgb(30, 30, 30);
 }
@@ -503,17 +522,6 @@ footer {
   border-top: 1px solid lightgray;
 }
 
-.rights-div > p {
-  margin-top: 0;
-}
-
-.rights-div > p > a {
-  text-decoration: none;
-  color: rgb(102, 102, 102);
-  font-size: 10px;
-  margin-right: 20px;
-}
-
 .rights-div > p > a:hover {
   text-decoration: underline;
 }
@@ -541,17 +549,6 @@ footer {
   display: flex;
   align-items: center;
   width: 60%;
-}
-
-.right-expand > p {
-  width: 50%;
-  margin-right: 100px;
-  font-size: 14px;
-}
-
-.right-expand > span {
-  font-size: 13px;
-  font-weight: bold;
 }
 
 .right-expand > .expand {
