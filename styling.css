@@ -421,6 +421,12 @@ aside {
   margin-right: 20px;
 }
 
+.footer-logo-div > span a {
+  color: #4b6891;
+  font-size: 12px;
+  text-decoration: none;
+}
+
 aside > nav > a:hover {
   color: rgb(102, 102, 102);
 }
@@ -464,12 +470,6 @@ footer {
   border-top: 1px solid lightgray;
   padding-top: 5px;
 }
-
-.footer-logo-div > span a {
-  color: #4b6891;
-  font-size: 12px;
-  text-decoration: none;
-  } 
 
 .bottom-menu-div {
   display: flex;
