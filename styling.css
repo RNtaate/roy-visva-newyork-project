@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
@@ -56,6 +56,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
 .center-div > img {
   width: 35%;
 }
@@ -81,7 +82,7 @@ main {
   margin-right: auto;
   font-size: 6vh;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 figure {
@@ -134,7 +135,7 @@ article > h3 {
 }
 
 article pre {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.3rem;
   max-width: 100%;
   white-space: pre-wrap;
@@ -148,6 +149,101 @@ article > pre > h3 {
   padding-bottom: 0;
   padding-top: 0;
 }
+
+/* The grid image starts here "The Theory section */
+
+.theory-sec-div {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.theory-heading > h1 {
+  font-size: 18px;
+  font-weight: 1000;
+  margin-bottom: 0;
+}
+
+.theory-heading > p {
+  font-size: 15px;
+  margin-top: 5px;
+  color: rgb(102, 102, 102);
+}
+
+.theory-image {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item-div {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.img-holder {
+  position: relative;
+  width: 200px;
+  height: 140px;
+  overflow: hidden;
+}
+
+.img-holder > img {
+  width: 800px;
+  position: absolute;
+}
+
+.grid-item-div > p {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgb(30, 30, 30);
+  padding-top: 5px;
+}
+.grid-item-div > p > span {
+  font-weight: bold;
+  font-size: 12px;
+  display: inline;
+  margin-right: 10px;
+  font-family: "Times New Roman";
+}
+
+.img-holder > .img-2 {
+  left: -200px;
+}
+
+.img-holder > .img-3 {
+  left: -400px;
+}
+
+.img-holder > .img-4 {
+  left: -600px;
+}
+
+.img-holder > .img-5 {
+  top: -235px;
+}
+
+.img-holder > .img-6 {
+  top: -235px;
+  left: -200px;
+}
+
+.img-holder > .img-7 {
+  top: -235px;
+  left: -400px;
+}
+
+.img-holder > .img-8 {
+  top: -235px;
+  left: -600px;
+}
+
+.author-div > p {
+  font-size: 15px;
+  color: rgb(50, 50, 50);
+}
+
+/* The grid image ends here "The Theory section" */
 
 .video {
   position: relative;
@@ -284,7 +380,7 @@ aside > nav > a {
   padding: 20px 0;
   line-height: 25px;
   font-weight: 600;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   border-top: 1px solid lightgray;
 }
 
@@ -368,7 +464,7 @@ footer {
 .menu-links-div > h5 {
   margin-bottom: 5px;
   font-weight: 800;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-size: 15px;
   color: rgb(30, 30, 30);
 }
@@ -428,6 +524,10 @@ footer {
   position: sticky;
   bottom: 0;
   background-color: white;
+}
+
+.sticky-footer:hover {
+  cursor: pointer;
 }
 
 .sticky-footer > .right-expand > span > img {
