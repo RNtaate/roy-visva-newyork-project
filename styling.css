@@ -465,6 +465,12 @@ footer {
   padding-top: 5px;
 }
 
+.footer-logo-div > span a {
+  color: #4b6891;
+  font-size: 12px;
+  text-decoration: none;
+  } 
+
 .bottom-menu-div {
   display: flex;
   justify-content: space-between;
